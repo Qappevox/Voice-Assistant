@@ -1,16 +1,7 @@
 #using python 3.6.8
+#created by Qappevox
+#date: 16.02.2022
 
-"""
-req:
-
-kivy
-kivymd
-playsound
-gTTS
-speech_recognition
-
-
-"""
 try:
     #kivy imports
     from kivy.uix.boxlayout import BoxLayout
