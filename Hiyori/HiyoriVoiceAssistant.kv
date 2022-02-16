@@ -1,0 +1,50 @@
+<Hiyori>:
+
+    BoxLayout:
+
+        orientation: 'vertical'
+
+
+        MDToolbar:
+            specific_text_color : 0.76, 0.43, 0.98
+
+            title:"Hiyori -->"
+
+            halign: 'center_x'
+
+            md_bg_color: .3,.1,.3, 0.7
+
+            line_color: 0.76, 0.43, 0.98 
+
+
+
+            StackLayout:
+                md_bg_color: 0.3, 0.6, 0.3
+
+                orientation: 'lr-tb'
+
+
+
+
+        MDBottomNavigation:
+
+
+            MDBottomNavigationItem:
+                name: 'screen 1'
+
+                text: "Hiyori (created with python)"
+
+                icon: 'language-python'
+
+
+
+                MDIconButton:
+                    on_press: root.listenning(), root.condition()
+
+                    icon: "microphone"
+
+                    icon_size: "100sp"
+
+                    pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+                    md_bg_color: 0.47,0.33,0.47
