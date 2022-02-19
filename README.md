@@ -1,8 +1,10 @@
 # Voice-Assistant
-I'ts just a voice assistant for windows and android but sometimes not working in android.
+I'ts just a voice assistant for windows.
 
-If you want compile to android, you must use ubuntu and buildozer. Also you can use PyInstaller library for windows.(I propose windows platform)
+If you want convert to exe, you can use PyInstaller library .
 But first for all you must import some libraries.
+
+pip install PyInstaller
 
 pip install kivy
 
