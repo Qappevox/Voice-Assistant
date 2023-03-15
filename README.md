@@ -1,5 +1,5 @@
 # Voice-Assistant
-I'ts just a voice assistant for windows.
+It's just a voice assistant for windows.
 
 If you want convert to exe, you can use PyInstaller library .
 But first for all you must import some libraries.
